@@ -227,3 +227,16 @@ index = 4
 .
 .
 .
+--------------------------------------------------------------
+Partition
+
+numbers = []
+pivot = numbers[-1]
+i = 0 #to access each element of the list
+j = 0 #to know or find the index of the pivot element
+
+for i in range(len(numbers)-1):
+	if i != j and numbers[i] < pivot:
+		numbers[i] , numbers[j] = numbers[j] , numbers[i] #tuple is created
+		
+		
