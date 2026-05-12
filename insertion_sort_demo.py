@@ -10,4 +10,4 @@ print('Numbers before sorting: \n', numbers)
 ins_sort.insertion_sort(numbers)
 print('Numbers after sorting:')
 for i in range(len(numbers)):
-    print('%=4d'%(numbers[i]), end = '')
+    print('%-4d'%(numbers[i]), end = '')
